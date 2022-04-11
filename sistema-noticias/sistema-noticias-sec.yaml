@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-noticias-sec 
+type: Opaque
+data:
+  PASS_DB: cm9vdHBhc3N3b3Jk  
+  DATABASE_DB: Y3Vyc28tYWx1cmE=
